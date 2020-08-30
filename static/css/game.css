@@ -1,0 +1,20 @@
+#intensity {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+#distance {
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+#position {
+    position: absolute;
+    top: 0;
+    left: 410px;
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

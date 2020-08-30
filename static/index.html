@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery331.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/Hex.js"></script>
+    <script src="/js/Net.js"></script>
+    <script src="/js/Ui.js"></script>
+</head>
+
+<body>
+    <div id="control-panel">
+        <select id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+        </select>
+        <button id="save">ZAPISZ</button>
+        <button id="get">WCZYTAJ</button>
+        <button id="createLevel">GENERUJ</button>
+        <div id="loadedFromServer">
+        </div>
+        <div id="hexType">
+            <button id="wall">WALL</button>
+            <button id="ally">ALLY</button>
+            <button id="treasure">TREASURE</button>
+            <button id="light">LIGHT</button>
+        </div>
+    </div>
+    <textarea id="data"></textarea>
+    <div id="main"></div>
+</body>
+
+</html>
